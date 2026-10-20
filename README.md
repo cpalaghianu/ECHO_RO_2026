@@ -6,7 +6,7 @@ Code, derived inputs, result tables and figures for the article
 
 The analysis uses the Romanian records of ECHOREPO (1,091 samples from 444 collectors) and addresses contribution and data quality, spatial autocorrelation, collector effects, spatial representation (grid, Voronoi polygons, NUTS units, CORINE land cover, altitude) and the comparison of field pH with the LUCAS 2018 topsoil survey.
 
-**Archived release:** DOI to be added (Zenodo). **Repository:** https://github.com/cpalaghianu/ECHO_RO_2026
+**Archived release:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23496521.svg)](https://doi.org/10.5281/zenodo.23496521) **Repository:** https://github.com/cpalaghianu/ECHO_RO_2026
 
 ## Repository layout
 

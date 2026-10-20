@@ -1,0 +1,1 @@
+Spearman rho OC vs pH(H2O), LUCAS Romania, n=602: -0.055 (p=0.177)

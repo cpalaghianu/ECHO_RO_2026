@@ -1,0 +1,75 @@
+{
+ "n_samples": 1091,
+ "n_collectors": 444,
+ "per_collector": {
+  "mean": 2.4572072072072073,
+  "median": 1.0,
+  "q25": 1.0,
+  "q75": 3.0,
+  "max": 35,
+  "sd": 3.545953385296098
+ },
+ "single": {
+  "n": 232,
+  "pct": 52.25225225225225,
+  "wilson_ci_pct": [
+   47.6067940066618,
+   56.859072117628294
+  ],
+  "share_of_samples_pct": 21.264894592117322
+ },
+ "gini": {
+  "value": 0.453953724577006,
+  "ci": [
+   0.3930802745457024,
+   0.5056245502133124
+  ]
+ },
+ "top1pct": {
+  "k": 5,
+  "share_pct": 12.098991750687443
+ },
+ "top5pct": {
+  "k": 23,
+  "share_pct": 30.7974335472044
+ },
+ "top10pct": {
+  "k": 45,
+  "share_pct": 39.780018331805685
+ },
+ "top20pct": {
+  "k": 89,
+  "share_pct": 52.97891842346472
+ },
+ "collectors_for_50pct_of_samples": 79,
+ "collectors_for_80pct_of_samples": 226,
+ "hill": {
+  "N0": 444,
+  "N1": 274.02124022992376,
+  "N2": 144.25899890922312,
+  "evenness_N2_over_N0": 0.324907655200953
+ },
+ "activity": {
+  "median_active_days": 1.0,
+  "multi_day_pct": 18.91891891891892,
+  "multi_day_pct_among_ge2": 39.62264150943396,
+  "median_span_days_multiday": 3.0,
+  "span_gt30d_pct": 3.3783783783783785,
+  "max_samples_per_collector_day": 11
+ },
+ "footprint_ge2_samples": {
+  "n_collectors": 212,
+  "median_km": 10.187218897070446,
+  "le5km_pct": 28.77358490566038,
+  "le20km_pct": 71.22641509433963,
+  "gt50km_pct": 10.849056603773585
+ },
+ "campaign": {
+  "april_samples": 786,
+  "april_pct": 72.04399633363886,
+  "collectors_active_april": 249,
+  "collectors_only_april": 245,
+  "top10pct_share_in_april": 46.69211195928753,
+  "top10pct_share_other_months": 21.9672131147541
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "seed": 20261019,
+ "B": 4000,
+ "n_samples": 1091,
+ "n_collectors": 444,
+ "voronoi_vs_grid_area_rel_diff": 7.386931188995159e-05,
+ "grid": {
+  "cells_total": 309,
+  "cells_occupied": 226,
+  "cells_occupied_pct": 73.13915857605178,
+  "cells_substantial": 263,
+  "cells_substantial_occupied": 215,
+  "cells_substantial_occupied_pct": 81.74904942965779,
+  "area_total_km2": 238393.99,
+  "area_in_occupied_cells_pct": 80.58858362998163,
+  "cells_empty": 83,
+  "cells_ge2": 183,
+  "cells_ge3": 142,
+  "cells_ge2_pct": 59.22330097087378,
+  "samples_per_occupied_cell_median": 3.0,
+  "samples_per_occupied_cell_iqr": [
+   2.0,
+   5.0
+  ],
+  "samples_per_occupied_cell_max": 79,
+  "density_per100km2_occupied_median": 0.44429387819942945,
+  "density_national_per100km2": 0.45764576531480516,
+  "gini_area_weighted": 0.5713129311029805,
+  "share_samples_in_densest_10pct_area": 41.979835013748854,
+  "share_samples_in_densest_25pct_area": 64.61961503208066,
+  "share_area_with_zero_samples_pct": 19.411416370018394,
+  "csr_expected_occupied_analytic": 281.3891065906688,
+  "csr_expected_occupied_sim_mean": 281.413,
+  "csr_occupied_sim_2_5_97_5": [
+   275.0,
+   288.0
+  ],
+  "csr_min_occupied_sim": 267,
+  "csr_p_obs_le": 9.999000099990002e-05,
+  "csr_ratio_obs_to_expected": 0.8031583124813633,
+  "csr_area_coverage_sim_mean_pct": 97.02251693509557,
+  "csr_expected_empty": 27.610893409331197,
+  "csr_nsim": 10000
+ },
+ "voronoi": {
+  "total_area_km2": 238376.38,
+  "mean_ha": 21849.34738771769,
+  "median_ha": 13375.0,
+  "iqr_ha": [
+   4748.5,
+   28288.0
+  ],
+  "p5_p95_ha": [
+   124.5,
+   69067.5
+  ],
+  "max_ha": 489361.0,
+  "min_ha": 10.0,
+  "gini_polygon_area": 0.5667563059461702,
+  "kish_neff": 371.57117177442296,
+  "kish_neff_over_n": 0.34057852591606136,
+  "share_area_in_largest_10pct_polygons": 39.901285521661165,
+  "share_area_in_smallest_50pct_polygons": 11.881424661285653,
+  "n_polygons_lt100ha": 49,
+  "n_polygons_lt1000ha": 114,
+  "n_polygons_gt50000ha": 104,
+  "share_area_polygons_gt50000ha_pct": 38.65709765371888,
+  "kish_neff_over_n_ci": [
+   0.2635047206685124,
+   0.42922387022289765
+  ]
+ },
+ "icc_collector_null_models": {
+  "ph": 0.590842694009428,
+  "om": 0.2217421893411344,
+  "worms": 0.3585545215817971
+ },
+ "season_vs_altitude": {
+  "spearman_altitude_vs_day_of_campaign": [
+   0.02919268259531089,
+   0.33782946966678173
+  ],
+  "period_counts": {
+   "Apr 2026": 786,
+   "Nov-Dec 2025": 142,
+   "May-Oct 2026": 91,
+   "Jan-Mar 2026": 72
+  },
+  "altitude_median_by_period": {
+   "Apr 2026": 351.0,
+   "Nov-Dec 2025": 389.0,
+   "Jan-Mar 2026": 375.5,
+   "May-Oct 2026": 393.0
+  }
+ },
+ "altitude_median_by_clc": {
+  "1": 355.5,
+  "2": 294.5,
+  "3": 482.0,
+  "4": 65.0,
+  "5": 421.0
+ },
+ "share_forest_by_band_pct": {
+  "<200": 33.97683397683397,
+  "200-499": 41.200828157349896,
+  "500-799": 66.8122270742358,
+  "800-1199": 83.16831683168317,
+  ">=1200": 94.73684210526315
+ },
+ "max_altitude_m": 1695,
+ "n_ge_1500m": 4,
+ "collectors_multiclass": 143,
+ "collectors_multi_sample": 212
+}

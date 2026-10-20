@@ -1,0 +1,142 @@
+{
+ "missing": {
+  "sample_id": 0,
+  "sampling_datetime_utc": 0,
+  "lat": 0,
+  "lon": 0,
+  "soil_ph_field": 0,
+  "soil_organic_matter": 6,
+  "earthworms_count": 0,
+  "pollutants_count": 0,
+  "soil_structure_en": 0,
+  "soil_texture_en": 0,
+  "collected_by": 0
+ },
+ "duplicated_ids": 0,
+ "ph_on_half_unit_grid": true,
+ "ph_range": [
+  3.0,
+  9.0
+ ],
+ "counts_are_nonnegative_integers": true,
+ "ph_whole_share_pct": 62.69477543538039,
+ "ph_whole_share_expected_uniform_pct": 53.84615384615385,
+ "ph_heaping_ratio": {
+  "value": 1.6584734799482534,
+  "ci": [
+   1.4295370299989865,
+   1.9611146299056135
+  ]
+ },
+ "ph_heaping_heterogeneity": {
+  "n_collectors": 14,
+  "n_samples": 274,
+  "chi2": 27.565709034647718,
+  "p_monte_carlo": 0.008333333333333333,
+  "half_unit_share_range_pct": [
+   8.695652173913043,
+   62.5
+  ]
+ },
+ "ph_le_3.5": {
+  "n": 40,
+  "collectors": 34,
+  "top_collector_n": 3,
+  "top3_share_pct": 17.5,
+  "months": {
+   "2026-04": 30,
+   "2025-12": 5,
+   "2026-03": 3,
+   "2026-05": 1,
+   "2026-01": 1
+  }
+ },
+ "ph_ge_9": {
+  "n": 24,
+  "collectors": 23,
+  "top_collector_n": 2,
+  "top3_share_pct": 16.666666666666664,
+  "months": {
+   "2026-04": 10,
+   "2025-12": 7,
+   "2026-03": 3,
+   "2025-11": 2,
+   "2026-06": 1,
+   "2026-05": 1
+  }
+ },
+ "texture_other": {
+  "n": 76,
+  "collectors": 46,
+  "top_collector_n": 15,
+  "top3_share_pct": 27.631578947368425,
+  "months": {
+   "2026-04": 45,
+   "2026-05": 10,
+   "2026-06": 7,
+   "2025-11": 6,
+   "2026-01": 3,
+   "2025-12": 3,
+   "2026-03": 2
+  }
+ },
+ "pollutants_ge_12": [
+  {
+   "sample_id": "FZZB-5212",
+   "collected_by": "fZi2O3G7RCSTuHPD0dUKvijCG4q1",
+   "pollutants_count": 12,
+   "soil_ph_field": 8.0
+  },
+  {
+   "sample_id": "KLBS-7514",
+   "collected_by": "aYRaXxhRVYRf6p3xuBX7iPajJPg2",
+   "pollutants_count": 14,
+   "soil_ph_field": 8.0
+  },
+  {
+   "sample_id": "WNNZ-1630",
+   "collected_by": "KHcA8upETuhLgw0XJYDPb80hGa93",
+   "pollutants_count": 13,
+   "soil_ph_field": 8.5
+  }
+ ],
+ "earthworms": {
+  "mean": 2.1842346471127407,
+  "variance": 8.451347555899394,
+  "variance_to_mean": 3.8692489229904483,
+  "zeros": 415,
+  "zero_pct": 38.03849679193401,
+  "max": 24,
+  "poisson_dispersion_chi2": 4217.481326059588,
+  "poisson_dispersion_p": 0.0,
+  "nb_alpha": 1.3802420977299354,
+  "nb_mean": 2.1842346471127403,
+  "zeros_expected_poisson": 122.80716227415562,
+  "zeros_expected_nb": 398.53457507275704,
+  "heaping_5": {
+   "observed": 79,
+   "expected_geometric": 36.742346141747674,
+   "ratio": 2.1501076631096785,
+   "p_poisson_upper": 1.006765407783338e-09
+  },
+  "heaping_10": {
+   "observed": 11,
+   "expected_geometric": 7.0710678118654755,
+   "ratio": 1.5556349186104046,
+   "p_poisson_upper": 0.10364214726217341
+  }
+ },
+ "pollutants": {
+  "zero_pct": 89.64252978918424,
+  "ge1": 113,
+  "ge12": 3
+ },
+ "ph_le_3.5_neighbour_check": {
+  "median_nb_ph_le_3_5": 5.5,
+  "median_nb_ph_4_to_4_5": 5.0,
+  "mannwhitney_U": 4574.5,
+  "p": 0.7575988097670399,
+  "share_nb_ge_5_5_ph_le_3_5": 0.55,
+  "share_nb_ge_5_5_ph_4_to_4_5": 0.4864864864864865
+ }
+}

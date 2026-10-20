@@ -1,0 +1,7 @@
+METHODS (to adapt): LUCAS Topsoil 2018 points for Romania with a valid pH(H2O) value (n = 602; one per 396 km2; coordinates: TH_LAT/TH_LONG) and the ECHO samples were assigned to 30 x 30 km cells of the Stereo 70 grid. Cells with at least 2 ECHO samples and 1 LUCAS point were retained. Agreement was expressed as the Spearman correlation between the ECHO and LUCAS cell medians, as the linearly weighted kappa for three pH classes (<6.0, 6.0-7.5, >7.5) fixed beforehand, and as the share of cells in the same class; intervals are 95% percentile intervals from a bootstrap that resamples 100-km blocks. To separate local from regional agreement, the correlation was recomputed after centring both medians within 100-km blocks.
+
+RESULTS (to adapt): 145 cells contained both ECHO and LUCAS data (876 ECHO samples, 411 LUCAS points; 145 of 226 ECHO cells). Cell medians of ECHO and LUCAS pH were correlated (Spearman rho = 0.49 (95% CI 0.34 to 0.57); n = 145 cells). Weighted kappa for the three pH classes was 0.32 (95% CI 0.18 to 0.39); 59% of the cells fell in the same class and 97% in the same or an adjacent class. The median difference between ECHO and LUCAS cell medians was -0.56 (95% CI -0.75 to -0.46) pH units (descriptive, not an error estimate). After centring within 100-km blocks the correlation was 0.39 (95% CI 0.25 to 0.54).
+
+SENSITIVITY S1_ge2_collectors: n = 110 cells; rho = 0.53 (95% CI 0.33 to 0.62); kappa = 0.36 (95% CI 0.26 to 0.43).
+
+SENSITIVITY S2_ge3echo_ge2lucas: n = 83 cells; rho = 0.46 (95% CI 0.23 to 0.67); kappa = 0.31 (95% CI 0.11 to 0.49).

@@ -1,0 +1,5 @@
+# Additional packages for representation_landcover/, lucas_comparison/ and supplementary/ (versions used for the reported results)
+pyproj==3.8.0
+openpyxl==3.1.5
+python-docx==1.2.0
+pillow==12.3.0

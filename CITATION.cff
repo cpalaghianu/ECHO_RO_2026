@@ -4,7 +4,7 @@ title: "Code and derived results for: Mapping soil health indicators through cit
 type: software
 version: 1.0.0
 # date-released: YYYY-MM-DD   (add when the release is published)
-# doi: 10.5281/zenodo.XXXXXXX (add the Zenodo concept or version DOI after the first release)
+doi: 10.5281/zenodo.23496521
 repository-code: "https://github.com/cpalaghianu/ECHO_RO_2026"
 authors:
   - family-names: Palaghianu
